@@ -1,6 +1,7 @@
 # Task_1_2_3
 
-Task 1: 
+Task 1: Iris.ipynb 
+
 Przedstawiłem kilka modeli bibloteki scikit-learn 
 Wcześniej konieczne było wstępne obrobienie danych: 
 Tj. 
@@ -13,10 +14,12 @@ data['Sepal.Length'] = data['Sepal.Length'].abs()
 
 # Drop nan records if exists
 data = data.dropna()
-Task 2: 
+
+Task 2: Headlines.ipynb 
 
 Skorzystałem uczenia głębokiego z wykorzystaniem silnika tensorflow - w mojej konfiguracji korzystający z CPU
-Trenowanie odbyło się na 25 epokach, chociaż zakładam, że zbliżony wynik można byłoby już osiągnąć na 15-stu
+Trenowanie odbyło się na 25 epokach, chociaż zakładam, że zbliżony wynik można byłoby osiągnąć na 15-stu
+
 Task 3:
 
 SELECT * FROM students WHERE student_id IN (
